@@ -1,0 +1,136 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 ArialUnicodeMS;\f2\froman\fcharset0 Times-Roman;
+\f3\fswiss\fcharset0 Helvetica-Oblique;\f4\fswiss\fcharset0 Helvetica-Bold;\f5\froman\fcharset0 Times-Italic;
+\f6\froman\fcharset0 Times-Bold;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;\red9\green47\blue157;\red0\green0\blue233;
+\red0\green0\blue0;\red9\green47\blue157;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c100000;\csgenericrgb\c3529\c18431\c61569;\csgenericrgb\c0\c0\c91373;
+\cssrgb\c0\c0\c0;\cssrgb\c2353\c27059\c67843;}
+\margl1440\margr1440\vieww28220\viewh15300\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \ul \ulc0 Format of refractive index files\ulnone \
+tab delimited text files\
+first column is wavelength in nm\
+second column is either n or k\
+uses n = n+ik formalism\
+naming is \'91x_nm_y\'92 where x is the material name, nm is the unit, and y is either n or k\
+Must have a file for n and k because of the way the script is written. Could update later. Also, only accepts nm for now.\
+\
+\
+\
+\ul References\ulnone \
+MoS2, MoSe2, WS2, WSe2 all from 
+\f1\fs26 \cf2 \expnd0\expndtw0\kerning0
+Applied Physics Letters \cf0 105, 201905 (2014);\uc0\u8232 
+\f2\fs24 \
+Au from Johnson and Christy\
+\
+Ag from Johnson and Christy\
+\
+Al from 
+\f0\fs20 K. M. McPeak, S. V. Jayanti, S. J. P. Kress, S. Meyer, S. Iotti, A. Rossinelli, and D. J. Norris. Plasmonic films can easily be better: Rules and recipes,\'a0{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1021/ph5004237"}}{\fldrslt 
+\f3\i \cf3 ACS Photonics
+\f0\i0 \'a0
+\f4\b 2
+\f0\b0 , 326-333 (2015)}}\cf3 \
+\
+Cu from \cf0 K. M. McPeak, S. V. Jayanti, S. J. P. Kress, S. Meyer, S. Iotti, A. Rossinelli, and D. J. Norris. Plasmonic films can easily be better: Rules and recipes,\'a0{\field{\*\fldinst{HYPERLINK "https://doi.org/10.1021/ph5004237"}}{\fldrslt 
+\f3\i \cf3 ACS Photonics
+\f0\i0 \'a0
+\f4\b 2
+\f0\b0 , 326-333 (2015)}}\cf3 \
+\
+\cf0 fused silica: JGS2 fused silica quartz, type sold by University wafer.com\
+http://www.foctek.net/products/optics/Fus_Sil.htm\
+k values are set to 0 because they were not availble and are small, but were needed for project\
+\
+crystalline sapphire al2o3\
+M. R. Querry. Optical constants,\'a0Contractor Report\'a0CRDC-CR-85034 (1985)\
+from refractiveindex.info\
+\
+soda lime glass = slg\
+https://refractiveindex.info/?shelf=glass&book=soda-lime&page=Rubin-clear\
+M. Rubin. Optical properties of soda lime silica glasses, Sol. Energy Mater. 12, 275-288 (1985)\
+\
+NBK7 is from refractiveindex.info which pulls from Schott\'92s website. \
+\
+Water: https://refractiveindex.info/?shelf=main&book=H2O&page=Hale, 
+\f2\fs24 G. M. Hale and M. R. Querry. Optical constants of water in the 200-nm to 200-\'b5m wavelength region, {\field{\*\fldinst{HYPERLINK "https://doi.org/10.1364/AO.12.000555"}}{\fldrslt 
+\f5\i \cf4 \ul \ulc4 Appl. Opt.
+\f2\i0  
+\f6\b 12
+\f2\b0 , 555-563 (1973)}}\
+\pard\pardeftab720\sl280\partightenfactor0
+\cf0 See also {\field{\*\fldinst{HYPERLINK "https://refractiveindex.info/?shelf=main&book=H2O&page=Segelstein"}}{\fldrslt 
+\f5\i \cf4 \ul \ulc4 Segelstein 1981}} for more recent data from the same group., Liquid water (H
+\fs20 \sub 2
+\fs24 \nosupersub O) at 25 \'b0C\
+\
+CaF2, 
+\f6\b\fs28 \
+\pard\pardeftab720\sl260\sa200\partightenfactor0
+
+\f2\b0\fs20 \cf0 I. H. Malitson. A redetermination of some optical properties of calcium fluoride, {\field{\*\fldinst{HYPERLINK "https://doi.org/doi:10.1364/AO.2.001103"}}{\fldrslt 
+\f5\i \cf4 \ul \ulc4 Appl. Opt.
+\f2\i0  
+\f6\b 2
+\f2\b0 , 1103-1107 (1963)}}\
+24C, https://refractiveindex.info/?shelf=main&book=CaF2&page=Malitson\
+k turns on around 8 um. T still up to 10 um. no k in data on refractiveindex.info\
+\
+
+\fs42 TiO2
+\fs20 \
+
+\f6\b IR
+\f2\b0 \
+https://refractiveindex.info/?shelf=main&book=TiO2&page=Kischkat\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\fs24 \cf0 352-nm single layer on Si substrate. Prepared by room temperature reactive sputter deposition using TiO
+\fs20 \sub 2
+\fs24 \nosupersub  target.\uc0\u8232 Data on the influence of deposition conditions on the optical properties of the film can be found in the original publication.\u8232 Data on the refractive index (n) in the visible can be found in the original publication.\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\f6\b\fs28 \cf0 References\
+\pard\pardeftab720\sl260\sa200\partightenfactor0
+
+\f2\b0\fs20 \cf0 J. Kischkat, S. Peters, B. Gruska, M. Semtsiv, M. Chashnikova, M. Klinkm\'fcller, O. Fedosenko, S. Machulik, A. Aleksandrova, G. Monastyrskyi, Y. Flores, and W. T. Masselink. Mid-infrared optical properties of thin films of aluminum oxide, titanium dioxide, silicon dioxide, aluminum nitride, and silicon nitride, {\field{\*\fldinst{HYPERLINK "https://doi.org/10.1364/AO.51.006789"}}{\fldrslt 
+\f5\i \cf4 \ul \ulc4 Appl. Opt.
+\f2\i0  
+\f6\b 51
+\f2\b0 , 6789-6798 (2012)}} (Numerical data kindly provided by Jan Kischkat)\
+
+\f6\b vis
+\f2\b0 \
+https://refractiveindex.info/?shelf=main&book=TiO2&page=Sarkar\
+\pard\pardeftab720\sl280\sa240\partightenfactor0
+
+\fs24 \cf0 Titanium(IV) oxide (Titanium dioxide, TiO
+\fs20 \sub 2
+\fs24 \nosupersub ) thin film (thickness 200 nm) on glass substrate.\
+\pard\pardeftab720\sl340\sa280\partightenfactor0
+
+\f6\b\fs28 \cf0 References\
+\pard\pardeftab720\sl260\sa200\partightenfactor0
+
+\f2\b0\fs20 \cf0 S. Sarkar, V. Gupta, M. Kumar, J. Schubert, P.T. Probst, J. Joseph, T.A.F. K\'f6nig, Hybridized guided-mode resonances via colloidal plasmonic self-assembled grating, {\field{\*\fldinst{HYPERLINK "https://doi.org/10.1021/acsami.8b20535"}}{\fldrslt 
+\f5\i \cf4 \ul \ulc4 ACS Appl. Mater. Interfaces
+\f2\i0 , 
+\f6\b 11
+\f2\b0 , 13752-13760 (2019)}}\uc0\u8232 (Numerical data kindly provided by Dr. Tobias K\'f6nig)\
+\
+\
+
+\f6\b\fs32 2D HOIP
+\f2\b0\fs28 \
+https://refractiveindex.info/?shelf=other&book=2D_HOIP&page=Song-RP1\
+Accessed 10/19/21\
+This site cites \
+
+\f0\fs26 B. Song, J. Hou, H. Wang, S. Sidhik, J. Miao, H. Gu, H. Zhang, S. Liu, Z. Fakhraai, J. Even, J.-C. Blancon, A. D. Mohite, D. Jariwala. Determination of dielectric functions and exciton oscillator strength of two-dimensional hybrid perovskites, {\field{\*\fldinst{HYPERLINK "https://doi.org/10.1021/acsmaterialslett.0c00505"}}{\fldrslt 
+\f3\i \cf6 ACS Materials Lett.
+\f0\i0  
+\f4\b 3
+\f0\b0 , 148-159 (2021)}}\uc0\u8232 (Numerical data kindly provided by Baokun Song)}
